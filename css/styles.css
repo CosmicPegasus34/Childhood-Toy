@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* Body */
+body {
+    overflow: auto;
+    background-image: url("../images/background.gif");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Dancing Script', 'Alex Brush', 'Condiment', cursive;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    padding: 10px;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    min-width: 360px;
+    min-width: 960px;
+}
+/* Header */
+header {
+    font-size: 100%;
+}
+/* Borders */
+.item100 img {
+    border: 3px solid black;
+}
+.item1 img {
+    border: 3px solid black;
+}
+.item7 img {
+    border: 3px solid black;
+}
+.item8 img {
+    border: 3px solid blue;
+}
+.item104 img {
+    border: 3px solid black;
+}
+/* Page Anchor */
+#top {
+    grid-column-start: 2;
+    grid-column-end: 30;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+/* ul */
+ul {
+    list-style-type: none;
+}
+/* Nav */
+nav{
+    line-height: -5px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+img {
+    box-sizing: border-box;
+    opacity: 1;
+}
+/*A Tags*/
+a:link {
+    color: rgb(0, 141, 19);
+}
+a:visited {
+    color: rgb(0, 165, 151);
+}
+a:hover {
+    color: rgb(68, 0, 255);
+}
+a:active {
+    color: rgb(86, 216, 0);
+}
+/* li */
+body li {
+    color: rgb(255, 0, 0);
+}
+/* Footer */
+footer {
+    margin-left: 2px;
+}
